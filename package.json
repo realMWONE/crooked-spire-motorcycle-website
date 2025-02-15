@@ -1,0 +1,37 @@
+{
+  "name": "@netlesh/astro-business-template",
+  "version": "0.6.0",
+  "private": false,
+  "author": "Cem Kaan Kösalı<netlesh@mail.ru>",
+  "license": "MIT",
+  "homepage": "https://github.com/netlesh/astro-business-template",
+  "keywords": [
+    "template",
+    "all-in-one",
+    "sitemap",
+    "business",
+    "astro",
+    "tailwind",
+    "tailwindcss",
+    "postcss"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.12",
+    "astro": "^4.6.3",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.10.2",
+    "prettier-plugin-astro": "^0.13.0"
+  },
+  "dependencies": {
+    "lucide-astro": "^0.372.0",
+    "urlencode": "^2.0.0"
+  }
+}
